@@ -11,11 +11,14 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+<link rel="stylesheet" href="css/style.css">
+
 <title>Solé | travel agency</title>
+
 </head>
 <body>
 
-<header class="headerSolé"> <!--Encabezadode la pagina, IMPORTANTE!! Considerar la class para darle estilo en el css-->
+<header class="headerSolé"> <!--Encabezado de la pagina, IMPORTANTE!! Considerar la class para darle estilo en el css-->
       <div class="logo">
         <img src="img/Logotipo minimalista de viajes SOLÉ.png" alt="Logo Solé" class="logo">
         
@@ -32,19 +35,19 @@
     
   </header>
 
-  <main> 
+  <main>
 
-    <section id="inicio" class="Solé-Travel Agency">
+    <section id="inicio" class="hero-Solé-TravelAgency">
       <div class="video-background">
         <video autoplay="" muted="" loop="" playsinline="">
-          <source src="img/VIDEO SOLÉ.mp4" type="video/mp4">
+          <source src="img/VIDEO pagina.mp4" type="video/mp4">
           Tu navegador no soporta video en HTML5.
         </video>
       </div>
 
 
       <div class="hero-content">
-        <h2>Bienvenidos a Solé</h2>
+        <h2>S o l é - travel agency</h2>
         <p>Descubre nuevos destinos, vive experiencias únicas y crea recuerdos inolvidables por todo el mundo.</p>
 
 
@@ -56,7 +59,54 @@
       
     </section>
 
-  </main>
+  </main>  <!--Aqui termina todo lo del hero donde esta el video y los dos botones-->
+
+  <!--INICIO DE LA SECCION SOBRE NOSOTOS, MISION, QUIENES SOMOS, ETC-->
+
+    <section id="quienes-somos" class="quienes-somos">
+      <h2>Quiénes Somos</h2>
+      <div class="content">
+        <p>En SOLÉ, creamos viajes personalizados para descubrir nuevos destinos, vivir experiencias únicas y crear recuerdos inolvidables.</p>
+      </div>
+    </section>
+
+<footer id="contacto-Solé"> 
+
+  <div class="footer-grid">
+      <div class="contacto">
+        <h3>Contacto</h3>
+        <address>
+          <p>
+            <i class="fa fa-map-marker-alt"></i>
+            <a href="https://maps.app.goo.gl/3N4Tr45FcVHjGFd36" target="_blank" rel="noreferrer noopener">
+            <span style="color: #b9ddff; font-weight: bold">Ubicación: </span> Plaza Antara, Méx.
+            </a>
+          </p>
+          <p>
+            <i class="fa fa-phone"></i>
+            <span style="color: #b9ddff; font-weight: bold">Teléfono: </span> <a href="tel:+525626208600"> 5626208600</a>
+          </p>
+        </address>
+      </div>
+      
+      <div class="redes-sociales">
+        <h3>Síguenos en redes sociales</h3>
+        <div class="redes-iconos">
+          <a href="https://www.facebook.com/?locale=es_LA" aria-label="Síguenos en Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/andyfalconn?stkn=MXd0cHU3dmkwODAyeA%3D%3D&utm_source=qr" aria-label="Síguenos en Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@andyfalconn?_r=1&_t=ZS-9AIoOW7UXGn" aria-label="Síguenos en TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+
+     <div class="footer-bottom">
+      <button onclick="scrollToTop()" class="scroll-to-top-btn" aria-label="Volver al inicio de la página">
+        <i class="fa fa-arrow-up"></i>
+      </button>
+
+    <p class="copyright">&copy; 2026 Agencia de viajes. Todos los derechos reservados.</p>
+    </div>
+</footer>
 
 
 </body>
