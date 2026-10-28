@@ -20,7 +20,7 @@
   
   /* Estilos para el encabezado */
   .headerSolé {
-  background: #253D52;
+  background: #756557;
   color: #FFFFFF;
   padding: 1rem 2rem;
   display: flex;
@@ -56,12 +56,12 @@
   }
   
   .nav-button {
-  background-color: #D9C3A5;
-  color: #253D52;
+  background-color: #756557;
+  color: white;
   padding: 10px 20px;
   margin-left: 15px;
   border-radius: 10px;
-  border: 3px solid #F8F3EA;
+  border: 3px solid #E5D0B3;
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.2s ease;
@@ -149,17 +149,17 @@
   /* Estilos para los botones de adopción y shop */
   .btn {
   display: inline-block;
-  background: #D9C3A5;
-  color: #253D52;
+  background: #756557;
+  color: white;
   padding: 0.8rem 1.5rem;
-  border: 3px solid white;
+  border: 3px solid #E5D0B3;
   border-radius: 15px;
   text-decoration: none;
   transition: background 0.3s, border-color 0.3s;
   }
   .btn:hover {
   background: #756557;
-  color: #253D52;
+  color: #e9dea2;
   border-color: #F8F3EA;
   }
 
@@ -177,6 +177,7 @@
   
   .quienes-somos h2 {
   margin-bottom: 20px;
+  text-align: center;
   }
   
   .quienes-somos .content {
@@ -184,9 +185,124 @@
   margin: 0 auto;
   }
 
+   /* Sección de destinos y botones de filtro */
+  .destinos {
+  background-color:  #F8F3EA;
+  }
+  
+  .destinos h2 {
+  margin-bottom: 20px;
+  }
+  
+  .filter-buttons {
+  margin-bottom: 30px;
+  }
+  
+  .filter-btn {
+  background-color: #756557;
+  border: 3px solid #E5D0B3;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .filter-btn:hover, .filter-btn.active {
+  background-color:#756557 ;
+  color: #D9C3A5;
+  border: 3px solid #ffffff;
+  transform: scale(1.05);
+  }
+
+   /* Estilos para el contenedor de la galería de DESTINOS */
+  #destinos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  }
+  
+  /* Estilos para cada tarjeta  (generada por JS) */
+  .Planea-card {
+  border: 2px solid #b9ddff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  background-color: #eeeeee;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+  /* Nuevo: para mejor control del diseño interno */
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .Planea-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+  }
+  
+  .Planea-card img {
+  width: 100%;
+  height: 197px;
+  object-fit:cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  }
+  
+  .Planea-card figcaption {
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+  }
+  
+  /* Estilo para mostrar la descripción completa */
+  .card-description {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #515050;
+  line-height: 1.4;
+  /* Esto es clave para que se muestre */
+  display: block;
+  }
+  
+  
+  /* Estilos para el slider de fotos */
+  /* Estilos para el slider */
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+  .column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  }
+  
+  .column img {
+  border: 7px solid #251D82;
+  border-radius: 15px;
+  }
+
+
+  .row h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  }
+
+
+  /* Clear floats after image containers */
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
  /* Pie de página (footer) */
   footer {
-  background-color: #253D52;
+  background-color: #756557;
   color: #ffffff;
   padding: 40px 20px 20px;
   text-align: center;
@@ -239,11 +355,11 @@
   }
   
   .redes-iconos a:hover {
-  color: #86C7D7;
+  color: #000000;
   }
   
   .footer-bottom {
-  border-top: 1px solid #86C7D7;
+  border-top: 1px solid #000000;
   padding-top: 20px;
   position: relative;
   }
@@ -263,7 +379,7 @@
   }
   
   .scroll-to-top-btn:hover {
-  background-color: #6d8ed6;
+  background-color: #080808;
   transform: translateX(-50%) scale(1.1);
   }
   
