@@ -91,7 +91,7 @@
   position: absolute;      
   top: 0; left: 0;          
   width: 100%; height: 100%; 
-  background-color: #253D5266; 
+  background-color: #756557; 
   z-index: 1;            
   }
 
@@ -126,7 +126,6 @@
   font-size: 3.5rem;
   margin-bottom: 1rem;
   color: white;
-  background-color: #253D52B3;
   padding-right: 20px;
   padding-left: 20px;
   border-radius: 50px;
@@ -281,7 +280,7 @@
   }
   
   .column img {
-  border: 7px solid #251D82;
+  border: 7px solid #756557;
   border-radius: 15px;
   }
 
@@ -299,6 +298,26 @@
   clear: both;
   display: table;
   }
+
+/*Aside para las frias, promociones y eventos*/
+
+ .Quehacemos {
+  text-align: center;
+  background-color: #D9C3A5;
+  padding: 50px 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  .Quehacemos h3 {
+  color: #756557;
+  margin-bottom: 40px;
+  }
+  
+  .Quehacemos p {
+  margin-bottom: 10px;
+  }
+
 
  /* Pie de página (footer) */
   footer {
